@@ -57,7 +57,7 @@ export class ImageController {
       throw new BadRequestException('No file uploaded.');
     }
 
-    const validFormats = ['jpg', 'png', 'gif', 'webp', 'tiff', 'bmp'];
+    const validFormats = ['jpg', 'png', 'gif', 'webp', 'tiff'];
     if (!validFormats.includes(format)) {
       throw new BadRequestException('Invalid format specified.');
     }
