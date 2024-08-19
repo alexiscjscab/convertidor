@@ -16,7 +16,6 @@ import {
 } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { Response } from 'express';
-import chalk from 'chalk';
 import { ImageService } from './images.service';
 import { red } from 'colorette';
 
